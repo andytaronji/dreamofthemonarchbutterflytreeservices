@@ -77,9 +77,9 @@ const LocalBusinessSchema = () => {
       }
     ],
     "sameAs": [
-      "https://facebook.com",
-      "https://instagram.com",
-      "https://google.com"
+      "https://www.facebook.com/people/Dream-Of-The-Monarch-Butterfly-Tree-Service/61552768919122/",
+      "https://www.instagram.com/dreamofthemonarchbutterfly/",
+      "https://www.google.com/maps/place/Dream+Of+The+Monarch+Butterfly+Tree+Services+LLC/@34.0449836,-84.3401891,12z/data=!4m6!3m5!1s0x21487aa2ba3562f1:0x15845caf9885f313!8m2!3d34.0449836!4d-84.3401891!16s%2Fg%2F11l5r4c95q?sa=X&ved=2ahUKEwi42JrQ1-eCAxVTSjABHTiBBtYQ_BJ6BAhGEAA&hl=en&entry=tts"
     ],
     "priceRange": "$$",
     "hasOfferCatalog": {
