@@ -12,6 +12,10 @@ const Header = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+  const handleMobileLinkClick = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <>
       {/* Top Bar with Contact Info */}
@@ -115,19 +119,39 @@ const Header = () => {
         <div className="md:hidden bg-white border-t border-gray-200 fixed w-full z-40">
           <div className="container-custom py-4">
             <nav className="flex flex-col space-y-4">
-              <Link href="/" className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100">
+              <Link 
+                href="/" 
+                className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100"
+                onClick={handleMobileLinkClick}
+              >
                 HOME
               </Link>
-              <Link href="/services" className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100">
+              <Link 
+                href="/services" 
+                className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100"
+                onClick={handleMobileLinkClick}
+              >
                 SERVICES
               </Link>
-              <Link href="/portfolio" className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100">
+              <Link 
+                href="/portfolio" 
+                className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100"
+                onClick={handleMobileLinkClick}
+              >
                 PORTFOLIO
               </Link>
-              <Link href="/testimonials" className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100">
+              <Link 
+                href="/testimonials" 
+                className="font-medium hover:text-monarch-green transition-colors py-2 border-b border-gray-100"
+                onClick={handleMobileLinkClick}
+              >
                 TESTIMONIALS
               </Link>
-              <Link href="/contact" className="font-medium hover:text-monarch-green transition-colors py-2">
+              <Link 
+                href="/contact" 
+                className="font-medium hover:text-monarch-green transition-colors py-2"
+                onClick={handleMobileLinkClick}
+              >
                 CONTACT
               </Link>
             </nav>
